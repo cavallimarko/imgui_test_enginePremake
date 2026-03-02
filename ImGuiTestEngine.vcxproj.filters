@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui_test_engine">
+      <UniqueIdentifier>{B43EFB4F-2055-F9E5-69CC-8407D521CA6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui_test_engine\thirdparty">
+      <UniqueIdentifier>{2E33089C-1AEE-F747-C3A5-7092AF3F42D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui_test_engine\thirdparty\Str">
+      <UniqueIdentifier>{765045FE-62A1-3040-8B05-1F0277B5C3A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui_test_engine\thirdparty\stb">
+      <UniqueIdentifier>{86D845FE-7229-3140-9B8D-1F02873DC4A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shared">
+      <UniqueIdentifier>{9C5CB11B-88FE-DBF1-71B9-EF455DFA6242}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui_test_engine\imgui_capture_tool.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_test_engine\imgui_te_context.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_test_engine\imgui_te_coroutine.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_test_engine\imgui_te_engine.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_test_engine\imgui_te_exporters.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_test_engine\imgui_te_imconfig.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_test_engine\imgui_te_internal.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_test_engine\imgui_te_perftool.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_test_engine\imgui_te_ui.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_test_engine\imgui_te_utils.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_test_engine\thirdparty\Str\Str.h">
+      <Filter>imgui_test_engine\thirdparty\Str</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_test_engine\thirdparty\stb\imstb_image_write.h">
+      <Filter>imgui_test_engine\thirdparty\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\imgui_app.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui_test_engine\imgui_capture_tool.cpp">
+      <Filter>imgui_test_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_test_engine\imgui_te_context.cpp">
+      <Filter>imgui_test_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_test_engine\imgui_te_coroutine.cpp">
+      <Filter>imgui_test_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_test_engine\imgui_te_engine.cpp">
+      <Filter>imgui_test_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_test_engine\imgui_te_exporters.cpp">
+      <Filter>imgui_test_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_test_engine\imgui_te_perftool.cpp">
+      <Filter>imgui_test_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_test_engine\imgui_te_ui.cpp">
+      <Filter>imgui_test_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_test_engine\imgui_te_utils.cpp">
+      <Filter>imgui_test_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\imgui_app.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
