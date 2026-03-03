@@ -27,7 +27,8 @@ project "ImGuiTestEngine"
 
     defines
     {
-        "IMGUI_ENABLE_TEST_ENGINE"
+        "IMGUI_ENABLE_TEST_ENGINE",
+        "IMGUI_TEST_ENGINE_ENABLE_COROUTINE_STDTHREAD_IMPL=1"
     }
 
     filter "system:windows"
