@@ -33,6 +33,10 @@ project "ImGuiTestEngine"
 
     filter "system:windows"
         systemversion "latest"
+        buildoptions
+        {
+            "/utf-8"
+        }
 
     filter "configurations:Debug"
         runtime "Debug"
