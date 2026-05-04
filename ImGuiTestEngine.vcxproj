@@ -75,7 +75,7 @@
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>TRACY_ENABLE;IMGUI_ENABLE_TEST_ENGINE;IMGUI_TEST_ENGINE_ENABLE_COROUTINE_STDTHREAD_IMPL=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>TRACY_ENABLE;TRACY_NO_ALLOC;IMGUI_ENABLE_TEST_ENGINE;IMGUI_TEST_ENGINE_ENABLE_COROUTINE_STDTHREAD_IMPL=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>..\tracy\public;..\ImGui;imgui_test_engine;shared;..\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
@@ -95,7 +95,7 @@
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>TRACY_ENABLE;IMGUI_ENABLE_TEST_ENGINE;IMGUI_TEST_ENGINE_ENABLE_COROUTINE_STDTHREAD_IMPL=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>TRACY_ENABLE;TRACY_NO_ALLOC;IMGUI_ENABLE_TEST_ENGINE;IMGUI_TEST_ENGINE_ENABLE_COROUTINE_STDTHREAD_IMPL=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>..\tracy\public;..\ImGui;imgui_test_engine;shared;..\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
